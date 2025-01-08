@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -18,7 +19,7 @@ public class GameManager : MonoBehaviour
     }
     public void Lose ()
     {
-        LoseWindow.SetActive(true); 
+    LoseWindow.SetActive(true); 
         Time.timeScale = 0;
     }
     public void LoadScene (int sceneNumber)
